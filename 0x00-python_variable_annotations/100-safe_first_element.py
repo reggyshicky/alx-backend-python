@@ -5,7 +5,7 @@ Duck Typing
 from typing import Union, Sequence, Any
 
 
-def safe_first_element(lst: Sequence[any]) -> Union[any, None]:
+def safe_first_element(lst: Sequence[Any]) -> Union[Any, None]:
     """Safely returns the first element of a sequence of None
     if the sequence is empty
     """
