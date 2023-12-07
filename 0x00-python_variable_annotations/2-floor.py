@@ -2,6 +2,7 @@
 """
 Typed-annotations
 """
+import math
 
 
 def floor(n: float) -> int:
