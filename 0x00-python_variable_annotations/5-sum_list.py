@@ -4,6 +4,7 @@ Type-annotated
 """
 from typing import List
 
+
 def sum_list(input_list: List[float]) -> float:
     """
     fuction that takes a list of input_list of floats
