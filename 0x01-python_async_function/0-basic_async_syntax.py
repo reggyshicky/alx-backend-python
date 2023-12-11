@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """
 Asychronous coroutine that takes an integers args(max_delay)
 with a default of 10 named wait random that waits for a random
@@ -10,5 +10,7 @@ import asyncio
 
 
 async def wait_random(max_delay: int = 10) -> float:
+    """
+    fucnctions that return random float numbers"""
     x = random.uniform(0, max_delay)
     return x
