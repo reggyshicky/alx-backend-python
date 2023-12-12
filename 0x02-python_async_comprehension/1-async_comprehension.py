@@ -7,10 +7,9 @@ comprehensing over async_generator, then return 10 random
 numbers
 """
 from typing import List
-import random
 async_generator = __import__('0-async_generator').async_generator
 
 
 async def async_comprehension() -> List[float]:
-    """function"""
+    """Return lists of values yielded by asynch_generator"""
     return [item async for item in async_generator()]
