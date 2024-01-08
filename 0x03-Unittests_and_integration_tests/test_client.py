@@ -55,5 +55,5 @@ class TestGithubOrgClient(unittest.TestCase):
             test_repo = test_client.public_repos()
             for idx in range(3):
                 self.assertIn(mock_repo.return_value[idx]['name'], test_repo)
-                mock_repo.assert_called_once()
-                m.assert_called_once()
+            mock_repo.assert_called_once()
+            m.assert_called_once()
